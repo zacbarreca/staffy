@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>Staffy</header>
+
+  <div id="meal-form" class="block">
+    <h2>Enter the Meal Details</h2>
+    <form id="meal-details">
+      <label for="base-meal-price" class="tag">Base Meal Price</label>
+      <input id="base-meal-price" type="number" value="9.99" required>
+      <label for="tax-rate" class="tag">Tax Rate</label>
+      <input id="tax-rate" type="number" required>
+      <label for="tip-percentage" class="tag">Tip Percentage</label>
+      <input id="tip-percentage" type="number" required>
+      <input id="meal-details-submit" type="submit" value="Submit">
+      <input id="meal-details-cancel" type="submit" value="Cancel">
+    </form>
+  </div>
+
+  <div id="customer-charges" class="block">
+    <h2>Customer Charges</h2>
+    <h3 id="subtotal" class="tag">Subtotal</h3>
+    <h3 id="tip" class="tag">Tip</h3>
+    <h3 id="total" class="tag">Total</h3>
+  </div>
+
+  <div id="my-earnings-info" class="block">
+    <h2>My Earnings Info</h2>
+    <h3 id="tip-total" class="tag">Tip Total</h3>
+    <h3 id="meal-count" class="tag">Meal Count</h3>
+    <h3 id="per-meal" class="tag">Average Tip Per Meal</h3>
+  </div>
+
+</body>
+
+</html>
